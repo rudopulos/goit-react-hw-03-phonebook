@@ -7,9 +7,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  text-align: left; 
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+ 
+  align-items: flex-start; 
+  width: 100%; 
+}
+
+label {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
 }
